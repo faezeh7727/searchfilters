@@ -28,7 +28,7 @@ body{
 }
 .input::placeholder{
     color:  rgb(71, 135, 141);
-    font-weight: 700;
+    
 }
 .input{
     background-color: #ececec;
