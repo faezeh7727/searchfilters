@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+body{
+   background-color:#ececec; 
+}
+
+.header-container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+    color: rgb(71, 135, 141);
+}
+.form-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input::placeholder{
+    color:  rgb(71, 135, 141);
+    font-weight: 700;
+}
+.input{
+    background-color: #ececec;
+    color: rgb(81, 147, 147);
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    padding: 7px 6px;
+    width: 50%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.3s ease-out;
+}
+.input:focus{
+    border:1px solid rgb(71, 135, 141);
+}
+.content{
+
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 251, 251);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1rem;
+}
+.img-container {
+  width: 100%;
+ 
+}
+
+.img-container img{
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit:contain ;
+  display: block;
+}
+
+.cart-footer{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-product{
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+    white-space: nowrap;
+}
+
+.btn{
+    border: none;
+    padding: 0.5rem;
+    background-color:rgb(71, 135, 141) ;
+    color: #ececec;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+
+
+.filters{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: #ececec;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+a:focus{
+    color: rgb(71, 135, 141) ;
+}
+
+@media (min-width: 1024px) {
+  
+    .filters{
+        width: 60%;
+    }
+
+    .input{
+        width: 30%;
+    }
+}
+

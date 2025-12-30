@@ -1,0 +1,137 @@
+{
+    "items":[
+
+    {
+        "id":1,
+        "title":"Shirt product",
+        "class":"Shirt",
+        "price":19.88,
+        "img":"images/217696034_phoenix_in.webp"
+    },
+
+     {
+  
+         "id":2,
+        "title":"Shirt product",
+        "class":"Shirt",
+        "price":10.8,
+        "img":"images/217946081_nvy_in.webp"
+
+    },
+
+
+     {
+
+        "id":4,
+        "title":"Shirt product",
+        "class":"Shirt",
+        "price":39.98,
+        "img":"images/images.jpg"
+    },
+
+
+     {
+
+        "id":5,
+        "title":"Watch product",
+        "class":"Watch",
+        "price":17.98,
+        "img":"images/Apple_Watch_Ultra_2_LTE_49mm_Titanium_Orange_Ocean_Band_PDP_Image_Avail_Position-1__en-IN_9ca47923-c612-46ac-a932-fbce9b5c705c.webp"
+    },
+
+     {
+
+        "id":6,
+        "title":"Watch product",
+        "class":"Watch",
+        "price":39.98,
+        "img":"images/images (1).jpg"
+    },
+
+     {
+
+       
+        "id":7,
+        "title":"Watch product",
+        "class":"Watch",
+        "price":59.98,
+        "img":"images/unnamed.jpg"
+    },
+
+    {
+
+       
+        "id":8,
+        "title":"Shoes product",
+        "class":"Shoes",
+        "price":90.98,
+        "img":"images/FOO-ACTIVN-20258790-NVY-ORNG-1.webp"
+    },
+
+    {
+
+       
+        "id":9,
+        "title":"Shoes product",
+        "class":"Shoes",
+        "price":59.98,
+        "img":"images/FOO-ACTIVN-PORT20258937--BEIGE_1.webp"
+    },
+
+    {
+
+       
+        "id":10,
+        "title":"Shoes product",
+        "class":"Shoes",
+        "price":19.98,
+        "img":"images/FOO-ACTIVN-PORT20258939--WHT-GOLD_1.webp"
+    },
+
+    {
+
+       
+        "id":11,
+        "title":"Shoes product",
+        "class":"Shoes",
+        "price":99.98,
+        "img":"images/FOO-ACTIVN-20258790-NVY-ORNG-1.webp"
+    },
+
+    {
+
+        "id":12,
+        "title":"Hat product",
+        "class":"Hat",
+        "price":99.98,
+        "img":"images/61l4GrpbZFL._AC_UY1000_.jpg"
+    },
+
+    {
+
+        "id":14,
+        "title":"Hat product",
+        "class":"Hat",
+        "price":99.98,
+        "img":"images/61qS6k5RAsL._AC_UL600_SR600,600_.jpg"
+    },
+
+    {
+
+        "id":15,
+        "title":"Hat product",
+        "class":"Hat",
+        "price":99.98,
+        "img":"images/prod3185122_2.webp"
+    },
+
+    {
+
+        "id":16,
+        "title":"Hat product",
+        "class":"Hat",
+        "price":99.98,
+        "img":"images/prod3208001_1.jpeg"
+    }
+    ]
+}
