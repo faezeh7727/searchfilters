@@ -124,3 +124,6 @@ filteritems.forEach((item)=>{
         RenderProducts(allproductsdata,filters)
     })
 })
+
+
+
